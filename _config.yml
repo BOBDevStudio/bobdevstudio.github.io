@@ -1,0 +1,28 @@
+remote_theme: "BOBDevStudio/Minimal-Mistakes-Fork-Theme"
+
+# --//Main customisation:
+
+title: "BOB Development Studio Website"
+description: "This is the official web for the Roblox group called BOB Development Studio"
+name: "BOB Development Studio"
+
+exclude:
+  - Readme.md
+  - .github
+  - License
+
+# --//Plugin related stuff:
+
+safe: true
+plugins:
+#  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-redirect-from
+#  - jekyll-gist
+#  - jekyll-sitemap
+whitelist:
+#  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-redirect-from
+#  - jekyll-gist
+#  - jekyll-sitemap
